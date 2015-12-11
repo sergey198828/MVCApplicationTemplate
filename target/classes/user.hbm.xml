@@ -1,0 +1,9 @@
+<hibernate-mapping>
+  <class name='com.MVCApplication.models.User' table='Users'>
+    <id column='user_id' name='userId' type='java.lang.Integer'>
+      <generator class='increment'/>
+    </id>
+    <property column='user_name' name='userName' type='java.lang.String'/>
+    <property column='user_password' name='password' type='java.lang.String'/>
+  </class>
+</hibernate-mapping>
